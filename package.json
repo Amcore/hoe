@@ -1,0 +1,22 @@
+{
+  "name": "hoe",
+  "version": "0.0.1",
+  "description": "hoe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hoe": "bin/index.js"
+  },
+  "author": "amcore",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "events": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.1",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
